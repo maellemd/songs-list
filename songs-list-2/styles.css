@@ -14,7 +14,7 @@ h1 {
 
 .grille-singles {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, 30% 30% 30%);
     gap: 20px;
     padding: 2rem;
     margin: 0 auto;
@@ -72,7 +72,7 @@ img {
         grid-template-columns: 1fr 1fr;
     }
 }
-@media (max-width: 480px) {
+@media (max-width: 640px) {
     .grille-singles {
         grid-template-columns: 1fr;
     }
